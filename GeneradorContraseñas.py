@@ -8,8 +8,14 @@ NUMEROS = "1234567890"
 password = ""
 
 # 1. Decidir los requisitos de la contraseña
+longitud = 0
+while longitud == 0: 
+    try:
+        longitud = int(input("¿De que tamaño deseas la contraseña?: "))
+    except ValueError: 
+        print("Tienes que introducir un número entero")
 
-longitud = int(input("¿De que tamaño deseas la contraseña?: "))
+
 decidir_especial = input("¿Deseas que tu contraseña incluya caracteres especiales?: ")
 decidir_numero = input("¿Deseas que tu contraseña incluya números?: ")
 

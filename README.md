@@ -92,6 +92,12 @@ Este es un proyecto en Python que genera contraseñas seguras y aleatorias. El p
 ¿Deseas que tu contraseña incluya números? (si/no): no 
 Aquí tienes tu contraseña: Ab%kKd&FkGjZ
 
+## Mejoras futuras
+
+- Simplificar código
+- Posibilidad de generar multiples contraseñas
+- Guardar contraseñas generadas en un archivo
+
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si tienes ideas o mejoras, siéntete libre de abrir un **pull request** o crear un **issue**.

@@ -15,8 +15,16 @@ while longitud == 0:
     except ValueError: 
         print("Tienes que introducir un número entero")
 
+validate_especial = False
+while validate_especial == False:
+    decidir_especial = input("Deseas que tu contraseña incluya caracteres especiales?: ")
+    if decidir_especial.lower() == "si" or decidir_especial == "no": 
+        validate_especial = True
+    else: 
+        print("Tienes que escribir si o no")
+        validate_especial = False
 
-decidir_especial = input("¿Deseas que tu contraseña incluya caracteres especiales?: ")
+
 decidir_numero = input("¿Deseas que tu contraseña incluya números?: ")
 
 # 2. Generar caracter aleatorio

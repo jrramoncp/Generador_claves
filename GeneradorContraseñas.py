@@ -94,7 +94,7 @@ def generar_contraseña(longitud):
     
 
 
-# 3. Mostrar contraseña generada
+# 4. Mostrar contraseña generada
 
 print("Aqui tienes tu contraseña")
 print(generar_contraseña(longitud))

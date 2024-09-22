@@ -24,8 +24,15 @@ while validate_especial == False:
         print("Tienes que escribir si o no")
         validate_especial = False
 
+validate_number = False
+while validate_number == False: 
+    decidir_numero = input("¿Deseas que tu contraseña incluya números?: ")
+    if decidir_numero.lower() == "si" or decidir_numero == "no": 
+        validate_number = True
+    else: 
+        print("Tienes que escribir si o no")
+        validate_number = False
 
-decidir_numero = input("¿Deseas que tu contraseña incluya números?: ")
 
 # 2. Generar caracter aleatorio
 
